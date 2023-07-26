@@ -622,21 +622,21 @@
 }
 
 .rectangle {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 80px;
+}
+.rectangle__background {
+  background: #142A31;
+  border-radius: 16px;
+  height: 573px;
+  width: 1120px;
+}
+.rectangle__desc {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #FFFFFF;
-  margin-top: 24px;
-}
-.rectangle__background {
-  text-align: center;
-  background: #142A31;
-  border-radius: 16px;
-  height: 573px;
-  width: 1120px;
+  margin-bottom: 42px;
 }
 .rectangle__pink {
   font-family: "Roboto", sans-serif;
@@ -646,7 +646,10 @@
   color: #FDB0AB;
 }
 .rectangle__title2 {
-  margin: 6px 286px 260px 344px;
+  margin: 6px 286px 24px 344px;
+}
+.rectangle__title1 {
+  padding-top: 95px;
 }
 
 .title {
@@ -655,4 +658,108 @@
   line-height: 70px;
   font-weight: 400;
   color: #FFFFFF;
+}
+
+.button-white {
+  padding: 12px;
+}
+.button-white__icon {
+  height: 22px;
+  width: 18px;
+}
+.button-white__title {
+  font-family: "Roboto", sans-serif;
+  color: #142A31;
+  font-size: 16px;
+  line-height: 24.4px;
+  font-weight: 400;
+}
+
+.rectangle__button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #ffffff;
+  margin-bottom: 19px;
+  border-radius: 25px;
+}
+
+.rectangle__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.footer__left {
+  margin: 69px 0 57px 45px;
+}
+.footer__logo {
+  height: 58px;
+  width: 177px;
+  margin-right: 45px;
+  margin-bottom: 57px;
+}
+.footer__frame {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+.footer__right {
+  display: flex;
+  justify-content: right;
+}
+.footer__button {
+  color: #142A31;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.footer__item {
+  margin-top: 16px;
+}
+.footer__item1 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.footer__rectangle {
+  background: #ECFDF3;
+  height: 32px;
+  width: 40px;
+  border-radius: 25px;
+}
+
+.title {
+  color: #027A48;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  margin-right: 117px;
+  margin-top: 72px;
+  margin-left: 135px;
+}
+
+.footer__list1 {
+  list-style: none;
+  margin-right: 117px;
+  margin-top: 18px;
+  margin-left: 135px;
 }/*# sourceMappingURL=style.css.map */

@@ -138,8 +138,7 @@
 
 .blocks {
   display: inline-flex;
-  margin-top: 64px;
-  margin-bottom: 31px;
+  margin: 64px 0 31px 0;
 }
 
 .block1 {
@@ -222,10 +221,7 @@
 .interest {
   display: flex;
   justify-content: space-between;
-  margin-top: 310px;
-  margin-left: 40px;
-  margin-right: 88px;
-  margin-bottom: 160px;
+  margin: 310px 88px 160px 40px;
 }
 .interest__button {
   background: #142A31;
@@ -265,9 +261,7 @@
 .choice__left {
   height: 428px;
   width: 400px;
-  margin-top: 107px;
-  margin-left: 104px;
-  margin-bottom: 106px;
+  margin: 107px 0 106px 104px;
 }
 .choice__title {
   font-family: "Roboto", sans-serif;
@@ -294,8 +288,7 @@
   line-height: 24.4px;
   font-weight: 400;
   width: 494px;
-  margin-top: 23px;
-  margin-bottom: 157px;
+  margin: 23px 0 157px 0;
 }
 .basic__button1 {
   background: #142A31;
@@ -315,8 +308,7 @@
   margin-top: 111px;
 }
 .money__left {
-  margin-left: 40px;
-  margin-top: 48px;
+  margin: 48px 0 0 40px;
 }
 .money__button {
   background: #142A31;
@@ -350,19 +342,18 @@
   line-height: 24.4px;
   font-weight: 400;
   width: 522px;
-  margin-top: 22px;
-  margin-bottom: 145px;
+  margin: 22px 0 145px 0;
 }
 .money__right {
   height: 421px;
   width: 400px;
-  margin-right: 104px;
-  margin-bottom: 109px;
+  margin: 0 104px 109px 0;
 }
 
 .process {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 91px;
 }
 .process__left {
   width: 400px;
@@ -370,8 +361,7 @@
   margin-top: 88px;
 }
 .process__right {
-  margin-top: 212px;
-  margin-right: 63px;
+  margin: 212px 63px 0 0;
 }
 .process__button {
   background: #142A31;
@@ -409,15 +399,13 @@
 }
 
 .offer {
-  padding-top: 78px;
-  padding-bottom: 110px;
+  padding: 78px 0 110px 0;
   background: #F3F8F3;
 }
 .offer__column {
   display: flex;
   justify-content: space-between;
-  margin-left: 58px;
-  margin-right: 58px;
+  margin: 0 58px 0 58px;
 }
 .offer__title {
   display: flex;
@@ -448,7 +436,6 @@
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
-  margin-top: 0px;
   text-align: center;
   max-width: 300px;
   margin-bottom: 27px;
@@ -555,6 +542,7 @@
   line-height: 48px;
   font-weight: 400;
   margin-bottom: 81px;
+  text-align: center;
 }
 .questions__line {
   display: flex;
@@ -601,9 +589,8 @@
 }
 
 .before-footer {
-  margin-top: 191px;
-  margin-left: 40px;
   background: #FFFFFF;
+  margin: 191px 0 0 40px;
 }
 .before-footer__title {
   font-family: "Poppins", sans-serif;
@@ -614,7 +601,7 @@
 .before-footer__end {
   height: 48px;
   width: 138px;
-  margin: 232px 415px 128px 647px;
+  margin: 16px 415px 128px 647px;
 }
 
 .rectangle {
@@ -688,23 +675,25 @@
 .footer {
   background-color: #ffffff;
 }
+.footer__start {
+  display: flex;
+  justify-content: space-between;
+}
 .footer__left {
   margin: 69px 0 57px 45px;
 }
 .footer__logo {
   height: 58px;
   width: 177px;
-  margin-right: 45px;
-  margin-bottom: 57px;
+  margin: 0 45px 57px 0;
 }
 .footer__frame {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   margin-top: 51px;
 }
 .footer__right {
   display: flex;
-  justify-content: right;
 }
 .footer__button {
   color: #142A31;
@@ -736,9 +725,7 @@
 }
 .footer__list1 {
   list-style: none;
-  margin-right: 117px;
-  margin-top: 18px;
-  margin-left: 135px;
+  margin: 18px 117px 0 135px;
 }
 .footer__plus {
   background: #EAECF0;
@@ -772,9 +759,7 @@
 
 .list {
   list-style: none;
-  margin-right: 117px;
-  margin-top: 72px;
-  margin-left: 135px;
+  margin: 72px 117px 0 135px;
 }
 
 .title1 {
@@ -784,6 +769,14 @@
   line-height: 21px;
   font-weight: 400;
   width: 633px;
-  margin-left: 40px;
-  margin-top: 21px;
+  margin: 21px 0 0 40px;
+}
+
+.frame1 {
+  margin-right: 24px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
